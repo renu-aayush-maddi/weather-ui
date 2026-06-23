@@ -1,0 +1,13 @@
+<table border="1">
+  <tr>
+    <th>Date</th>
+    <th>Temperature</th>
+    <th>Summary</th>
+  </tr>
+
+  <tr *ngFor="let item of weatherData">
+    <td>{{ item.date }}</td>
+    <td>{{ item.temperatureC }}</td>
+    <td>{{ item.summary }}</td>
+  </tr>
+</table>
