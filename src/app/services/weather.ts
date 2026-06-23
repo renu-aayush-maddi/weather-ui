@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class WeatherService {
 
-  private apiUrl = 'http://localhost:5085/weatherforecast';
+  private apiUrl = '/api/weatherforecast';
 
   constructor(private http: HttpClient) {}
 
